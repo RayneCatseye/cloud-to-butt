@@ -35,7 +35,8 @@ function handleText(textNode)
 	v = v.replace(/\bFarmer john\b/g, "John Peters, you know, the farmer");
 	v = v.replace(/\bframer John\b/g, "John Peters, you know, the farmer");
 	v = v.replace(/\bfarmer john\b/g, "John Peters, you know, the farmer");
-	
+	v = v.replace(/\bFJ\b/g, "John Peters, you know, the farmer");
+
 	v = v.replace(/\bBessie\b/g, "his invisible corn");
 	v = v.replace(/\bbessie\b/g, "his invisible corn");
 	v = v.replace(/\bBessy\b/g, "his invisible corn");
