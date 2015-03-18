@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "Farmer to Farmer",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"description": "Replaces the text 'Farmer John' with 'John Peters, you know, the farmer'.",
 	"content_scripts": 
 	[
 		{
