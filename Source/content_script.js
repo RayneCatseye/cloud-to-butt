@@ -31,20 +31,14 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bFarmer John\b/g, "John Peters, you know, the farmer");
-	v = v.replace(/\bFarmer john\b/g, "John Peters, you know, the farmer");
-	v = v.replace(/\bfarmer John\b/g, "John Peters, you know, the farmer");
-	v = v.replace(/\bfarmer john\b/g, "John Peters, you know, the farmer");
+	v = v.replace(/\bFarmer John\b/ig, "John Peters, you know, the farmer");
 	v = v.replace(/\bFJ\b/g, "John Peters, you know, the farmer");
 
+	v = v.replace(/\bBessie\b/ig, "his invisible corn");
+	v = v.replace(/\bBessy\b/ig, "his invisible corn");
+	v = v.replace(/\bBetsy\b/ig, "his invisible corn");
 
-
-	v = v.replace(/\bBessie\b/g, "his invisible corn");
-	v = v.replace(/\bbessie\b/g, "his invisible corn");
-	v = v.replace(/\bBessy\b/g, "his invisible corn");
-	v = v.replace(/\beessy\b/g, "his invisible corn");
-	v = v.replace(/\bBetsy\b/g, "his invisible corn");
-	v = v.replace(/\bbetsy\b/g, "his invisible corn");
+	v = v.replace(/\bapple/\b/ig, "trans-dimensional orange");
 	
 	textNode.nodeValue = v;
 }
