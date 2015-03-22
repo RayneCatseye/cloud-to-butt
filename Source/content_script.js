@@ -38,7 +38,8 @@ function handleText(textNode)
 	v = v.replace(/\bBessy\b/ig, "his invisible corn");
 	v = v.replace(/\bBetsy\b/ig, "his invisible corn");
 
-	v = v.replace(/\bapple/\b/ig, "trans-dimensional orange");
+	v = v.replace(/\bAn apple\b/ig, "a trans-dimensional orange");
+	v = v.replace(/\bApples\b/ig, "trans-dimensional oranges");
 	
 	textNode.nodeValue = v;
 }
